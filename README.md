@@ -20,10 +20,12 @@ Commdesk 是一款适用于 Windows 的中文通信调试工具，面向嵌入�
 
 ## 下载
 
-**最新版本：0.2.7 · Windows x64**
+**最新版本：0.2.8 · Windows x64**
 
 - [从 Gitee 下载（推荐）](https://gitee.com/cauzyx/commdesk-releases/releases)
 - [从 GitHub 下载（备用）](https://github.com/cauzyx/commdesk-releases/releases)
+
+若旧版提示“更新公钥格式错误”，请手动下载 0.2.8 或更新版本升级一次；之后可继续使用自动更新。
 
 下载发行版中的 ZIP 压缩包，**完整解压后双击 `Commdesk.exe`** 即可使用。请保留解压后的全部文件，不要只复制 EXE，也不要直接在压缩包里运行。
 
