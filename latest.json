@@ -1,12 +1,12 @@
 {
-  "version": "0.2.6",
-  "notes": "- 内置 UniBus 协议解析预置，首次打开协议列表即可选择使用；更新保留已有协议修改。\n\n- 汇总当前源码更新，重新构建 Windows x64 桌面版、脚本运行时和便携更新器。\n- 更新一体式标题栏、快捷连接栏、命令目录树及独立命令编辑窗口。\n- 改进接收分块、跨块文本解码、自动编码识别及接收记录显示。\n- 更新 Lua / C 脚本控件、离线运行与连接关联、代码高亮及本地格式化支持。\n- 包含当前蓝牙、TCP / UDP、虚拟串口及协议功能实现。",
-  "publishedAt": "2026-09-09T01:46:19.3242041Z",
+  "version": "0.2.7",
+  "notes": "- 新增明暗主题切换，自动记住选择，独立编辑窗口同步主题。\n- 切换或断开串口时保留脚本、控件和变量，重连后后续收发使用当前连接。\n- 切换连接时清空旧接收缓存，失败的发送不补发，避免跨设备混入数据。\n- 保留内置 UniBus 协议解析预置。",
+  "publishedAt": "2026-09-12T01:41:44.9070454Z",
   "packageUrls": [
-    "https://gitee.com/cauzyx/commdesk-releases/releases/download/v0.2.6/Commdesk_0.2.6_windows-x64.zip",
-    "https://github.com/cauzyx/commdesk-releases/releases/download/v0.2.6/Commdesk_0.2.6_windows-x64.zip"
+    "https://gitee.com/cauzyx/commdesk-releases/releases/download/v0.2.7/Commdesk_0.2.7_windows-x64.zip",
+    "https://github.com/cauzyx/commdesk-releases/releases/download/v0.2.7/Commdesk_0.2.7_windows-x64.zip"
   ],
-  "sha256": "c45920cef46c90da6409b123e07eba1aef8607e7bccf2d2ad36fba2e5aae4e70",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUVBLZ0Z5K1lHWm1ES3BuNDhESmxwVUpPZ3dtVksxMk5NTE1QdktMaXdEQ3ZGYVZkUGIzVE5PZzdDdkwxRUI5bFlHMGh4Q0ZEeXFvSFVnaGRvMEZKUG1adXZ4ZEdHYlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTE4Mzc5CWZpbGU6Q29tbWRlc2tfMC4yLjZfd2luZG93cy14NjQuemlwCmR2bTd6RUNqbU9qWklEczJRQ0k3d3dQa1FaUFNIMVRaTWRxcGw0ajB3TXBsWHltL3pwUk54Ly9CWi9TT3pVVnJ6Zk0xdzMvdDRjMnUyNVF0RW51cERnPT0K",
-  "size": 39803028
+  "sha256": "9816792764e8571cd94f2ba85a8b9e97dc7243982e3629d18ee72e5fcfce84e8",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUVBLZ0Z5K1lHWnJsZmo5L3U0VzczbFZVYTBHS2tVQ01OdEZEbHp2MWhXMmFRNGdHcCt4dEU3U0NHVU5nYnExc2tLTUxOWlBSWmZ3LzNXM3hwWUZyYmxla2hhekVWb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTc3MzA0CWZpbGU6Q29tbWRlc2tfMC4yLjdfd2luZG93cy14NjQuemlwCkNTaVBXa0RnamovSnA3Z28zMEVZLzg5bDVaaTRERjhvb1RlODZIeHBpVmhTMGIzd1RKRHp1cnJ3aFpHUStPVlMzQXp0NEVzQWthNy9jTysrUkNHd0RRPT0K",
+  "size": 40940591
 }
