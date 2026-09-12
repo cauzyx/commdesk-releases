@@ -1,12 +1,12 @@
 {
-  "version": "0.2.7",
-  "notes": "- 新增明暗主题切换，自动记住选择，独立编辑窗口同步主题。\n- 切换或断开串口时保留脚本、控件和变量，重连后后续收发使用当前连接。\n- 切换连接时清空旧接收缓存，失败的发送不补发，避免跨设备混入数据。\n- 保留内置 UniBus 协议解析预置。",
-  "publishedAt": "2026-09-12T01:41:44.9070454Z",
+  "version": "0.2.8",
+  "notes": "- 修复更新公钥与签名格式解析，恢复检查更新和更新包签名验证。\n- 移除重复的 command-templates 目录；UniBus 预置仍由程序内置并在首次使用时生成。\n- 保留明暗主题和切换串口时脚本持续运行的改进。\n- 0.2.7 及更早版本如提示公钥格式错误，需要手动下载本版更新一次。",
+  "publishedAt": "2026-09-12T01:57:04.0032003Z",
   "packageUrls": [
-    "https://gitee.com/cauzyx/commdesk-releases/releases/download/v0.2.7/Commdesk_0.2.7_windows-x64.zip",
-    "https://github.com/cauzyx/commdesk-releases/releases/download/v0.2.7/Commdesk_0.2.7_windows-x64.zip"
+    "https://gitee.com/cauzyx/commdesk-releases/releases/download/v0.2.8/Commdesk_0.2.8_windows-x64.zip",
+    "https://github.com/cauzyx/commdesk-releases/releases/download/v0.2.8/Commdesk_0.2.8_windows-x64.zip"
   ],
-  "sha256": "9816792764e8571cd94f2ba85a8b9e97dc7243982e3629d18ee72e5fcfce84e8",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUVBLZ0Z5K1lHWnJsZmo5L3U0VzczbFZVYTBHS2tVQ01OdEZEbHp2MWhXMmFRNGdHcCt4dEU3U0NHVU5nYnExc2tLTUxOWlBSWmZ3LzNXM3hwWUZyYmxla2hhekVWb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTc3MzA0CWZpbGU6Q29tbWRlc2tfMC4yLjdfd2luZG93cy14NjQuemlwCkNTaVBXa0RnamovSnA3Z28zMEVZLzg5bDVaaTRERjhvb1RlODZIeHBpVmhTMGIzd1RKRHp1cnJ3aFpHUStPVlMzQXp0NEVzQWthNy9jTysrUkNHd0RRPT0K",
-  "size": 40940591
+  "sha256": "28d4ab093f4b9d75d65d9dc885ddd01b24ce4028a26239445259dc794514917b",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUVBLZ0Z5K1lHWmxIdGtDbktURENBVy9VQVlCK1VLaUhCblhwREtWNWpwakJLcndSc2hyemh0VHhzQW43L0o4cHhya2cyUmlodDA5T2YyYTh4N1ViRzdkcC9pcXNuWFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTc4MjIzCWZpbGU6Q29tbWRlc2tfMC4yLjhfd2luZG93cy14NjQuemlwCk83aXFBNFVCYmpOb21oL3hzMkdZQ3VpSWltb2lVN1FqQUdaay9BQnRJLzdjWkczSUJwc3VLWUltYjJRWVFFTnRPNXAya1ExQi9EZlNvVkxuTUF6TUNnPT0K",
+  "size": 40934089
 }
